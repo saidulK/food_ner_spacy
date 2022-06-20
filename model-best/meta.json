@@ -1,0 +1,52 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.3.0,<3.4.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"497a708c7",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "tok2vec":[
+
+    ],
+    "ner":[
+      "FOOD"
+    ]
+  },
+  "pipeline":[
+    "tok2vec",
+    "ner"
+  ],
+  "components":[
+    "tok2vec",
+    "ner"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "ents_f":0.9951557093,
+    "ents_p":0.9944674965,
+    "ents_r":0.9958448753,
+    "ents_per_type":{
+      "FOOD":{
+        "p":0.9944674965,
+        "r":0.9958448753,
+        "f":0.9951557093
+      }
+    },
+    "tok2vec_loss":43.4019248663,
+    "ner_loss":140.9683703822
+  }
+}
